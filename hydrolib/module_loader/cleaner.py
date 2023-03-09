@@ -16,8 +16,6 @@ import pandas as pd
 def clean(df):
     data = pd.DataFrame(df.loc[0])
     data = data.transpose()
-    # data[0] = df.loc[0]
-    print((data))
     myString = ""
     j = 0
     # for i in range(1,len(df)):
